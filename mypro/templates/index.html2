@@ -1,0 +1,26 @@
+<html>
+<head>
+
+</head>
+
+
+
+
+<body>
+
+<ul>
+     {%for cat in doss  %}
+      <li> {{cat.name}}</li>
+
+     {% endfor %}
+
+</ul>
+
+
+</body>
+
+
+
+
+
+</html>
